@@ -25,7 +25,8 @@
     android:shape="rectangle"
     android:tint="?colorControlActivated">
 
-    <corners android:radius="8dp" />
+    <corners android:topLeftRadius="4dp"
+              android:bottomLeftRadius="4dp" />
 
     <padding android:top="4dp" android:bottom="4dp" />
 
