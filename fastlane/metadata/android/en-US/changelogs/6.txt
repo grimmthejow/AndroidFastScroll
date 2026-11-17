@@ -1,2 +1,0 @@
-- Fixed FastScrollNestedScrollView scrolling past end when ProGuard is enabled with optimization.
-- The SimpleFastScrollView class is replaced by ViewHelperProvider for this fix.

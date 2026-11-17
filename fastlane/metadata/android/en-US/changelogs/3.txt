@@ -1,2 +1,0 @@
-- Worked around path not convex crash under certain conditions.
-- Fixed FastScroller to use AppCompatTextView for popup.

@@ -1,1 +1,0 @@
-- Fixed fast scroll views not being considered as scroll containers.

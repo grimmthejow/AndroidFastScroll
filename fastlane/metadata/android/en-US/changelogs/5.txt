@@ -1,1 +1,0 @@
-- Fixed setViewHelper() to return FastScrollerBuilder for chaining.
