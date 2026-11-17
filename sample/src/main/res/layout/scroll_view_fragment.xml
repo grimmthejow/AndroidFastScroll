@@ -16,7 +16,7 @@
   ~ limitations under the License.
   -->
 
-<me.zhanghai.android.fastscroll.FastScrollScrollView
+<com.xapps.media.xmusic.fastscroll.FastScrollScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/scrollingView"
@@ -34,4 +34,4 @@
         android:paddingBottom="@dimen/list_padding_bottom_with_fab"
         app:lineHeight="24sp"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
-</me.zhanghai.android.fastscroll.FastScrollScrollView>
+</com.xapps.media.xmusic.fastscroll.FastScrollScrollView>

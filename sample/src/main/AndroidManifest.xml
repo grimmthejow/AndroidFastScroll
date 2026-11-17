@@ -31,7 +31,7 @@
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity
-            android:name="me.zhanghai.android.fastscroll.sample.MainActivity"
+            android:name="com.xapps.media.xmusic.fastscroll.sample.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
