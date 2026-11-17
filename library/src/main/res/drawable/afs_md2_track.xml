@@ -29,5 +29,5 @@
 
     <size android:width="8dp" />
 
-    <solid android:color="#39FFFFFF" />
+    <solid android:color="#00000000" />
 </shape>
