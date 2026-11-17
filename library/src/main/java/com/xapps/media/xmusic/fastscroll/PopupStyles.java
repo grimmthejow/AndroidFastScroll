@@ -18,6 +18,7 @@ package com.xapps.media.xmusic.fastscroll;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.text.TextUtils;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -41,14 +42,13 @@ public class PopupStyles {
         layoutParams.setMarginEnd(resources.getDimensionPixelOffset(R.dimen.afs_popup_margin_end));
         popupView.setLayoutParams(layoutParams);
         Context context = popupView.getContext();
-        popupView.setBackground(new AutoMirrorDrawable(Utils.getGradientDrawableWithTintAttr(
-                R.drawable.afs_popup_background, R.attr.colorControlActivated, context)));
+        popupView.setBackground(new AutoMirrorDrawable(Utils.getGradientDrawableWithTintColor(
+                R.drawable.afs_popup_background, Color.WHITE, context)));
         popupView.setEllipsize(TextUtils.TruncateAt.MIDDLE);
         popupView.setGravity(Gravity.CENTER);
         popupView.setIncludeFontPadding(false);
         popupView.setSingleLine(true);
-        popupView.setTextColor(Utils.getColorFromAttrRes(android.R.attr.textColorPrimaryInverse,
-                context));
+        popupView.setTextColor(Color.WHITE);
         popupView.setTextSize(TypedValue.COMPLEX_UNIT_PX, resources.getDimensionPixelSize(
                 R.dimen.afs_popup_text_size));
     };
@@ -72,8 +72,7 @@ public class PopupStyles {
         popupView.setGravity(Gravity.CENTER);
         popupView.setIncludeFontPadding(false);
         popupView.setSingleLine(true);
-        popupView.setTextColor(Utils.getColorFromAttrRes(android.R.attr.textColorPrimaryInverse,
-                context));
+        popupView.setTextColor(Color.WHITE);
         popupView.setTextSize(TypedValue.COMPLEX_UNIT_PX, resources.getDimensionPixelSize(
                 R.dimen.afs_md2_popup_text_size));
     };

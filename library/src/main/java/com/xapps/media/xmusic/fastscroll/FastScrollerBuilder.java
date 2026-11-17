@@ -17,6 +17,7 @@
 package com.xapps.media.xmusic.fastscroll;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.view.ViewGroup;
@@ -116,10 +117,10 @@ public class FastScrollerBuilder {
     @NonNull
     public FastScrollerBuilder useDefaultStyle() {
         Context context = mView.getContext();
-        mTrackDrawable = Utils.getGradientDrawableWithTintAttr(R.drawable.afs_track,
-                R.attr.colorControlNormal, context);
-        mThumbDrawable = Utils.getGradientDrawableWithTintAttr(R.drawable.afs_thumb,
-                R.attr.colorControlActivated, context);
+        mTrackDrawable = Utils.getGradientDrawableWithTintColor(R.drawable.afs_track,
+                Color.GRAY, context);
+        mThumbDrawable = Utils.getGradientDrawableWithTintColor(R.drawable.afs_thumb,
+                Color.WHITE, context);
         mPopupStyle = PopupStyles.DEFAULT;
         return this;
     }
@@ -127,10 +128,10 @@ public class FastScrollerBuilder {
     @NonNull
     public FastScrollerBuilder useMd2Style() {
         Context context = mView.getContext();
-        mTrackDrawable = Utils.getGradientDrawableWithTintAttr(R.drawable.afs_md2_track,
-                R.attr.colorControlNormal, context);
-        mThumbDrawable = Utils.getGradientDrawableWithTintAttr(R.drawable.afs_md2_thumb,
-                R.attr.colorControlActivated, context);
+        mTrackDrawable = Utils.getGradientDrawableWithTintColor(R.drawable.afs_md2_track,
+                Color.GRAY, context);
+        mThumbDrawable = Utils.getGradientDrawableWithTintColor(R.drawable.afs_md2_thumb,
+                Color.WHITE, context);
         mPopupStyle = PopupStyles.MD2;
         return this;
     }

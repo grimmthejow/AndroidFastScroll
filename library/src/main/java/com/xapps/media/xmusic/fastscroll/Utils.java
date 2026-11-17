@@ -69,4 +69,16 @@ class Utils {
         }
         return drawable;
     }
+
+    @Nullable
+    public static Drawable getGradientDrawableWithTintColor(@DrawableRes int drawableRes,
+                                                            @ColorInt int tintColor,
+                                                            @NonNull Context context) {
+        Drawable drawable = AppCompatResources.getDrawable(context, drawableRes);
+        if (drawable != null) {
+            drawable = DrawableCompat.wrap(drawable);
+            DrawableCompat.setTint(drawable, tintColor);
+        }
+        return drawable;
+    }
 }
