@@ -36,7 +36,13 @@ This library is loosely based on the following AOSP implementations:
 Gradle:
 
 ```gradle
-implementation 'com.xapps.media.xmusic.fastscroll:library:1.3.0'
+repositories {
+    maven { url = uri('https://jitpack.io') }
+}
+
+dependencies {
+    implementation 'com.github.grimmthejow:AndroidFastScroll:1.0.0'
+}
 ```
 
 This library uses [Java 8 bytecode](https://developer.android.com/studio/write/java8-support), so you will need to enable it in your project as well:
