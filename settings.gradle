@@ -6,4 +6,4 @@ pluginManagement {
     }
 }
 
-include ':library', ':sample'
+include ':library'

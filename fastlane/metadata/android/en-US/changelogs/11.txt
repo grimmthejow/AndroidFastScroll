@@ -1,1 +1,0 @@
-- Fixed scrollbar tinting on Android Lollipop (API 21).
