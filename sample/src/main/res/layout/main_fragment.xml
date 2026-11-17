@@ -47,7 +47,7 @@
                 app:popupTheme="?actionBarPopupTheme" />
         </com.google.android.material.appbar.AppBarLayout>
 
-        <me.zhanghai.android.fastscroll.sample.CoordinatorScrollingFrameLayout
+        <com.xapps.media.xmusic.fastscroll.sample.CoordinatorScrollingFrameLayout
             android:id="@+id/contentLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

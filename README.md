@@ -16,7 +16,7 @@ This is not an officially supported Google product.
 
 ## Preview
 
-<a href="https://play.google.com/store/apps/details?id=me.zhanghai.android.fastscroll.sample" target="_blank"><img alt="Google Play" height="90" src="https://play.google.com/intl/en_US/badges/images/generic/en_badge_web_generic.png"/></a>
+<a href="https://play.google.com/store/apps/details?id=com.xapps.media.xmusic.fastscroll.sample" target="_blank"><img alt="Google Play" height="90" src="https://play.google.com/intl/en_US/badges/images/generic/en_badge_web_generic.png"/></a>
 
 [Sample APK](https://github.com/zhanghai/AndroidFastScroll/releases/latest/download/sample-release.apk)
 
@@ -36,7 +36,7 @@ This library is loosely based on the following AOSP implementations:
 Gradle:
 
 ```gradle
-implementation 'me.zhanghai.android.fastscroll:library:1.3.0'
+implementation 'com.xapps.media.xmusic.fastscroll:library:1.3.0'
 ```
 
 This library uses [Java 8 bytecode](https://developer.android.com/studio/write/java8-support), so you will need to enable it in your project as well:
@@ -46,12 +46,12 @@ android {
     ...
     // For Java projects
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     // For Kotlin projects
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8.toString()
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
 }
 ```
